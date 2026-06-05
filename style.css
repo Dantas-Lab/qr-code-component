@@ -18,25 +18,27 @@ body{
 .card{
     background-color: white;
     width: 320px;
-    padding: 16px;
+    max-width: 320px;
+    padding: 16px 16px 40px 16px;
     border-radius: 20px;
     text-align: center;
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
 }
 
-.card img{
+.card__image{
     width: 100%;
+    display: block;
     border-radius: 10px;
 }
 
-.card_title{
-    font-size: 21px;
+.card__title{
+    font-size: 1.3125rem;
     color: hsl(218, 44%, 22%);
     margin: 24px 16px 16px;
 }
 
-.card_description{
-    font-size: 15px;
+.card__description{
+    font-size: 0.9375rem;
     margin: 16px 16px 24px;
     color: hsl(220, 15%, 65%);
 }
